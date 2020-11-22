@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0fbab4"
+    android:orientation="vertical">
+
+
+    <!--    layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's Start"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="'MOV' extension refers usually to what kind of file?"
+            android:textSize="32sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="Image file" />
+
+            <RadioButton
+                android:id="@+id/rbtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="Animation/movie file" />
+
+            <RadioButton
+                android:id="@+id/rbtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="Audio file" />
+
+            <RadioButton
+                android:id="@+id/rbtn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:text="MS Doc" />
+
+        </RadioGroup>
+        <!--    for question second -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="In which decade with the first transatlantic radio broadcast occur ?"
+            android:textSize="32sp" />
+
+
+        <CheckBox
+            android:id="@+id/check1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="1850s"
+
+            />
+
+        <CheckBox
+            android:id="@+id/check2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="1860s" />
+
+        <CheckBox
+            android:id="@+id/check3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="1880s" />
+
+        <CheckBox
+            android:id="@+id/check4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:text="1900s" />
+
+
+        <!--      question Third  /-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="'OS' computer abbreviation usually means?"
+            android:textSize="32sp" />
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your answer" />
+
+
+        <Button
+            android:id="@+id/nextBtn"
+            style="@style/nextbtn"
+            android:background="@drawable/bg_round" />
+    </LinearLayout>
+
+
+</ScrollView>
+
+
