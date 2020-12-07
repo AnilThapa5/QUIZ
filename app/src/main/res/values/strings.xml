@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">QUIZ</string>
+    <string name="lets_play_the_quiz">Lets Play the Quiz</string>
+    <string name="q1">\'MOV\' extension refers usually to what kind of file?</string>
+    <string name="start">Let\'s Start</string>
+    <string name="anser1">Image file</string>
+    <string name="answer2">Animation/movie file</string>
+    <string name="answer3">Audio file</string>
+    <string name="answer4">MS Doc</string>
+    <string name="q2">In which decade with the first transatlantic radio broadcast occur ?</string>
+    <string name="ans5">1860s</string>
+    <string name="ans6">1880s</string>
+    <string name="ans7">1900s</string>
+    <string name="q3">\'OS\' computer abbreviation usually means?</string>
+    <string name="q31">Enter your answer</string>
+    <string name="qq">1850s</string>
+    <string name="m1">Start Quiz</string>
+    <string name="m2">Play Quiz</string>
 </resources>
